@@ -43,17 +43,20 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-    //#1
-    createPlatform(450,700,150,12)
-
-    createPlatform(80,500,150,12)
-
-    createPlatform(650, 550,78,12)
-    //#2
-    createPlatform(56,700,150,12) 
-
-    createPlatform(250,100,250,12)
+    
+    createPlatform(0,140,505,30);
+    createPlatform(510,140,700,30);
+    createPlatform(1200,140,40,450);
+    createPlatform(1050,300,150,30);
+    createPlatform(350,300,695,30);
+    createPlatform(0,710,1500,30);
+    createPlatform(250,560,950,30);
+    createPlatform(0,650,120,10);
+    createPlatform(0,420,675,30);
+    createPlatform(420,440,350,10);
+    createPlatform(0,350,175,10);
+    
+   
 
 
 
@@ -65,9 +68,9 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-    createCollectable("steve", 650,550,78,0 )
-    createCollectable("grace", 800, 30 , 0, 0)
-    createCollectable("steve", 750, 250, 0, 0)
+    createCollectable("steve", ,,0,0 )
+    createCollectable("grace", , , 0, 0)
+    createCollectable("steve", , , 0, 0)
 
 
 

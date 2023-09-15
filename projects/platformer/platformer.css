@@ -3,7 +3,9 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-image:url("https://i0.wp.com/batman-news.com/wp-content/uploads/2017/03/Joker-and-Harley-Quinn-Suicide-Squad-F.jpg?fit=1536%2C865&quality=80&strip=info&ssl=1");
+  repeat: no-repeat;
+  size: 100%;
 }
 
 img {
