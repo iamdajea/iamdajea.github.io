@@ -85,10 +85,10 @@ var init = function (window) {
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             if(circle.y> canvas.height){
-                circle.y=0
+                circle.y=0;
             }
             if(circle.y < 0){
-                circle.y = height
+                circle.y = canvas.height;
             }
         var rightEdge = circle.x + circle.radius;
         var leftEdge = circle.x + circle.radius;
